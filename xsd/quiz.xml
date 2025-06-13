@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz xmlns="http://quiz.org"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://quiz.org quiz.xsd"
+      versao="1.0">
+    <disciplina>História e Geografia do RN</disciplina>
+    <professor>
+        <nome>Carlos Medeiros</nome>
+        <matricula>88921</matricula>
+    </professor>
+    <turma>9C</turma>
+    <data>2025-06-10</data>
+    <questoes>
+        <questao>
+            <enunciado>Qual é a capital do estado do Rio Grande do Norte?</enunciado>
+            <pontuacao>1</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">João Pessoa</alternativa>
+                <alternativa correta="sim">Natal</alternativa>
+                <alternativa correta="nao">Recife</alternativa>
+                <alternativa correta="nao">Fortaleza</alternativa>
+            </alternativas>
+        </questao>
+        <questao>
+            <enunciado>Qual famoso ponto turístico está localizado em Natal?</enunciado>
+            <pontuacao>1</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">Cristo Redentor</alternativa>
+                <alternativa correta="sim">Forte dos Reis Magos</alternativa>
+                <alternativa correta="nao">Pelourinho</alternativa>
+                <alternativa correta="nao">Pão de Açúcar</alternativa>
+            </alternativas>
+        </questao>
+        <questao>
+            <enunciado>Qual cidade do RN é famosa pela produção de sal marinho?</enunciado>
+            <pontuacao>1</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">Caicó</alternativa>
+                <alternativa correta="nao">Currais Novos</alternativa>
+                <alternativa correta="sim">Mossoró</alternativa>
+                <alternativa correta="nao">Pau dos Ferros</alternativa>
+            </alternativas>
+        </questao>
+        <questao>
+            <enunciado>Em qual região brasileira está localizado o Rio Grande do Norte?</enunciado>
+            <pontuacao>1</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">Centro-Oeste</alternativa>
+                <alternativa correta="nao">Sul</alternativa>
+                <alternativa correta="sim">Nordeste</alternativa>
+                <alternativa correta="nao">Sudeste</alternativa>
+            </alternativas>
+        </questao>
+        <questao>
+            <enunciado>Qual importante evento histórico ocorreu em Mossoró em 1927?</enunciado>
+            <pontuacao>1</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">Descobrimento do Brasil</alternativa>
+                <alternativa correta="nao">Independência do Brasil</alternativa>
+                <alternativa correta="sim">Resistência ao ataque de Lampião</alternativa>
+                <alternativa correta="nao">Invasão holandesa</alternativa>
+            </alternativas>
+        </questao>
+    </questoes>
+</quiz>

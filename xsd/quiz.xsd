@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:q="http://quiz.org"
+        targetNamespace="http://quiz.org"
+        elementFormDefault="qualified">
+
+    <!-- Elementos simples -->
+    <element name="disciplina" type="string"/>
+    <element name="nome" type="string"/>
+    <element name="matricula" type="string"/>
+    <element name="turma" type="string"/>
+    <element name="data" type="date"/>
+    <element name="pontuacao" type="integer"/>
+    <element name="enunciado" type="string"/>
+
+    <!-- Alternativa com atributo "correta" -->
+    <element name="alternativa">
+        <complexType mixed="true">
+            <attribute name="correta" use="required">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="sim"/>
+                        <enumeration value="nao"/>
+                    </restriction>
+                </simpleType>
+            </attribute>
+        </complexType>
+    </element>
+
+    <!-- Conjunto de alternativas -->
+    <element name="alternativas">
+        <complexType>
+            <sequence>
+                <element ref="q:alternativa" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- Questão individual -->
+    <element name="questao">
+        <complexType>
+            <sequence>
+                <element ref="q:enunciado"/>
+                <element ref="q:pontuacao"/>
+                <element ref="q:alternativas"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- Conjunto de questões -->
+    <element name="questoes">
+        <complexType>
+            <sequence>
+                <element ref="q:questao" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- Informações do professor -->
+    <element name="professor">
+        <complexType>
+            <sequence>
+                <element ref="q:nome"/>
+                <element ref="q:matricula"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- Elemento raiz: quiz -->
+    <element name="quiz">
+        <complexType>
+            <sequence>
+                <element ref="q:disciplina"/>
+                <element ref="q:professor"/>
+                <element ref="q:turma"/>
+                <element ref="q:data"/>
+                <element ref="q:questoes"/>
+            </sequence>
+            <attribute name="versao" type="string" use="required"/>
+        </complexType>
+    </element>
+
+</schema>
