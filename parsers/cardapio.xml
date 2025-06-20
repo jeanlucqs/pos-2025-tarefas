@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio>
+    <prato id="1">
+        <nome> Macarronada</nome>
+        <descricao> Macarronada ao molho especial madeira </descricao>
+        <ingredientes>
+            <ingrediente>Macarrão</ingrediente>
+            <ingrediente>Azeite de Oliva</ingrediente>
+            <ingrediente>Cebola</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Tomate </ingrediente>
+        </ingredientes>
+        <preco>R$20,00</preco>
+        <calorias>300</calorias>
+        <tempo_preparo>30 minutos</tempo_preparo>
+    </prato>
+
+    <prato id="2">
+        <nome>Frango Grelhado</nome>
+        <descricao>Peito de frango grelhado com ervas finas.</descricao>
+        <ingredientes>
+            <ingrediente>Peito de Frango</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Pimenta</ingrediente>
+            <ingrediente>Ervas Finas</ingrediente>
+            <ingrediente>Azeite de Oliva</ingrediente>
+        </ingredientes>
+        <preco>R$25,00</preco>
+        <calorias>350</calorias>
+        <tempo_preparo>25 minutos</tempo_preparo>
+    </prato>
+
+    <prato id="3">
+        <nome>Pizza Margherita</nome>
+        <descricao>Pizza com molho de tomate, mozzarella e manjericão.</descricao>
+        <ingredientes>
+            <ingrediente>Massa de Pizza</ingrediente>
+            <ingrediente>Molho de Tomate</ingrediente>
+            <ingrediente>Queijo Mozzarella</ingrediente>
+            <ingrediente>Manjericão Fresco</ingrediente>
+            <ingrediente>Azeite de Oliva</ingrediente>
+        </ingredientes>
+        <preco>R$30,00</preco>
+        <calorias>400</calorias>
+        <tempo_preparo>40 minutos</tempo_preparo>
+    </prato>
+
+    <prato id="4">
+        <nome>Salada Caesar</nome>
+        <descricao>Salada com alface, croutons e molho Caesar.</descricao>
+        <ingredientes>
+            <ingrediente>Alface Romana</ingrediente>
+            <ingrediente>Croutons</ingrediente>
+            <ingrediente>Queijo Parmesão</ingrediente>
+            <ingrediente>Molho Caesar</ingrediente>
+            <ingrediente>Pimenta-do-reino</ingrediente>
+        </ingredientes>
+        <preco>R$18,00</preco>
+        <calorias>200</calorias>
+        <tempo_preparo>15 minutos</tempo_preparo>
+    </prato>
+
+    <prato id="5">
+        <nome>Brownie de Chocolate</nome>
+        <descricao>Delicioso brownie de chocolate com nozes.</descricao>
+        <ingredientes>
+            <ingrediente>Chocolate Amargo</ingrediente>
+            <ingrediente>Açúcar</ingrediente>
+            <ingrediente>Farinha de Trigo</ingrediente>
+            <ingrediente>Ovos</ingrediente>
+            <ingrediente>Nozes</ingrediente>
+        </ingredientes>
+        <preco>R$15,00</preco>
+        <calorias>450</calorias>
+        <tempo_preparo>35 minutos</tempo_preparo>
+    </prato>
+</cardapio>

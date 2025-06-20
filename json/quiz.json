@@ -1,0 +1,64 @@
+{
+  "quiz": {
+    "versao": "1.0",
+    "disciplina": "História e Geografia do RN",
+    "professor": {
+      "nome": "Carlos Medeiros",
+      "matricula": "88921"
+    },
+    "turma": "9C",
+    "data": "2025-06-10",
+    "questoes": [
+      {
+        "enunciado": "Qual é a capital do estado do Rio Grande do Norte?",
+        "pontuacao": 1,
+        "alternativas": [
+          { "texto": "João Pessoa", "correta": false },
+          { "texto": "Natal", "correta": true },
+          { "texto": "Recife", "correta": false },
+          { "texto": "Fortaleza", "correta": false }
+        ]
+      },
+      {
+        "enunciado": "Qual famoso ponto turístico está localizado em Natal?",
+        "pontuacao": 1,
+        "alternativas": [
+          { "texto": "Cristo Redentor", "correta": false },
+          { "texto": "Forte dos Reis Magos", "correta": true },
+          { "texto": "Pelourinho", "correta": false },
+          { "texto": "Pão de Açúcar", "correta": false }
+        ]
+      },
+      {
+        "enunciado": "Qual cidade do RN é famosa pela produção de sal marinho?",
+        "pontuacao": 1,
+        "alternativas": [
+          { "texto": "Caicó", "correta": false },
+          { "texto": "Currais Novos", "correta": false },
+          { "texto": "Mossoró", "correta": true },
+          { "texto": "Pau dos Ferros", "correta": false }
+        ]
+      },
+      {
+        "enunciado": "Em qual região brasileira está localizado o Rio Grande do Norte?",
+        "pontuacao": 1,
+        "alternativas": [
+          { "texto": "Centro-Oeste", "correta": false },
+          { "texto": "Sul", "correta": false },
+          { "texto": "Nordeste", "correta": true },
+          { "texto": "Sudeste", "correta": false }
+        ]
+      },
+      {
+        "enunciado": "Qual importante evento histórico ocorreu em Mossoró em 1927?",
+        "pontuacao": 1,
+        "alternativas": [
+          { "texto": "Descobrimento do Brasil", "correta": false },
+          { "texto": "Independência do Brasil", "correta": false },
+          { "texto": "Resistência ao ataque de Lampião", "correta": true },
+          { "texto": "Invasão holandesa", "correta": false }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "cardapio": [
+    {
+      "id": "1",
+      "nome": "Macarronada",
+      "descricao": "Macarronada ao molho especial madeira",
+      "ingredientes": [
+        "Macarrão",
+        "Azeite de Oliva",
+        "Cebola",
+        "Sal",
+        "Tomate"
+      ],
+      "preco": "R$20,00",
+      "calorias": 300,
+      "tempo_preparo": "30 minutos"
+    },
+    {
+      "id": "2",
+      "nome": "Frango Grelhado",
+      "descricao": "Peito de frango grelhado com ervas finas.",
+      "ingredientes": [
+        "Peito de Frango",
+        "Sal",
+        "Pimenta",
+        "Ervas Finas",
+        "Azeite de Oliva"
+      ],
+      "preco": "R$25,00",
+      "calorias": 350,
+      "tempo_preparo": "25 minutos"
+    },
+    {
+      "id": "3",
+      "nome": "Pizza Margherita",
+      "descricao": "Pizza com molho de tomate, mozzarella e manjericão.",
+      "ingredientes": [
+        "Massa de Pizza",
+        "Molho de Tomate",
+        "Queijo Mozzarella",
+        "Manjericão Fresco",
+        "Azeite de Oliva"
+      ],
+      "preco": "R$30,00",
+      "calorias": 400,
+      "tempo_preparo": "40 minutos"
+    },
+    {
+      "id": "4",
+      "nome": "Salada Caesar",
+      "descricao": "Salada com alface, croutons e molho Caesar.",
+      "ingredientes": [
+        "Alface Romana",
+        "Croutons",
+        "Queijo Parmesão",
+        "Molho Caesar",
+        "Pimenta-do-reino"
+      ],
+      "preco": "R$18,00",
+      "calorias": 200,
+      "tempo_preparo": "15 minutos"
+    },
+    {
+      "id": "5",
+      "nome": "Brownie de Chocolate",
+      "descricao": "Delicioso brownie de chocolate com nozes.",
+      "ingredientes": [
+        "Chocolate Amargo",
+        "Açúcar",
+        "Farinha de Trigo",
+        "Ovos",
+        "Nozes"
+      ],
+      "preco": "R$15,00",
+      "calorias": 450,
+      "tempo_preparo": "35 minutos"
+    }
+  ]
+}
