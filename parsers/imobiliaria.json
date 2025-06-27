@@ -1,0 +1,107 @@
+{
+  "imobiliaria": [
+    {
+      "descricao": "Apartamento com varanda gourmet",
+      "proprietario": {
+        "nome": "Roberto Souza",
+        "email": "roberto.souza@example.com",
+        "telefones": [
+          "(84) 98765-1234",
+          "(84) 98123-5678"
+        ]
+      },
+      "endereco": {
+        "rua": "Rua Atlântica",
+        "bairro": "Ponta do Morcego",
+        "cidade": "Natal",
+        "numero": 1100
+      },
+      "caracteristicas": {
+        "tamanho": 125.75,
+        "numQuartos": 3,
+        "numBanheiros": 2
+      },
+      "valor": "R$ 470.000,00"
+    },
+    {
+      "descricao": "Sítio com lago artificial",
+      "proprietario": {
+        "nome": "Ana Beatriz",
+        "telefones": [
+          "(84) 96543-7890"
+        ]
+      },
+      "endereco": {
+        "rua": "Alameda dos Ipês",
+        "bairro": "Zona Verde",
+        "cidade": "Macaíba"
+      },
+      "caracteristicas": {
+        "tamanho": 520.00,
+        "numQuartos": 6,
+        "numBanheiros": 3
+      },
+      "valor": "R$ 870.000,00"
+    },
+    {
+      "descricao": "Studio mobiliado no centro",
+      "proprietario": {
+        "nome": "Thiago Mendes",
+        "telefones": [
+          "(84) 95432-1010"
+        ],
+        "email": "thiago.mendes@example.com"
+      },
+      "endereco": {
+        "rua": "Rua Princesa Isabel",
+        "bairro": "Centro",
+        "cidade": "Natal",
+        "numero": 350
+      },
+      "caracteristicas": {
+        "tamanho": 68.00,
+        "numQuartos": 1,
+        "numBanheiros": 1
+      },
+      "valor": "R$ 330.000,00"
+    },
+    {
+      "descricao": "Casa ampla com quintal",
+      "proprietario": {
+        "nome": "Sandra Ribeiro",
+        "email": "sandra.ribeiro@example.com"
+      },
+      "endereco": {
+        "rua": "Rua das Acácias",
+        "bairro": "Parque das Palmeiras",
+        "cidade": "Mossoró"
+      },
+      "caracteristicas": {
+        "tamanho": 210.00,
+        "numQuartos": 4,
+        "numBanheiros": 3
+      },
+      "valor": "R$ 615.000,00"
+    },
+    {
+      "descricao": "Kitnet reformada",
+      "proprietario": {
+        "nome": "Marcos Tavares",
+        "telefones": [
+          "(84) 97654-3333"
+        ]
+      },
+      "endereco": {
+        "rua": "Rua do Farol",
+        "bairro": "Praia dos Artistas",
+        "cidade": "Natal"
+      },
+      "caracteristicas": {
+        "tamanho": 37.50,
+        "numQuartos": 1,
+        "numBanheiros": 1
+      },
+      "valor": "R$ 155.000,00"
+    }
+  ]
+}

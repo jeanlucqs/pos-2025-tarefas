@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imobiliaria xmlns="http://imobiliaria.org"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://imobiliaria.org imobiliaria.xsd">
+    <imovel>
+        <descricao>Apartamento com varanda gourmet</descricao>
+        <proprietario>
+            <nome>Roberto Souza</nome>
+            <email>roberto.souza@example.com</email>
+            <telefone>(84) 98765-1234</telefone>
+            <telefone>(84) 98123-5678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Atlântica</rua>
+            <bairro>Ponta do Morcego</bairro>
+            <cidade>Natal</cidade>
+            <numero>1100</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>125.75</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 470.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Sítio com lago artificial</descricao>
+        <proprietario>
+            <nome>Ana Beatriz</nome>
+            <telefone>(84) 96543-7890</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Alameda dos Ipês</rua>
+            <bairro>Zona Verde</bairro>
+            <cidade>Macaíba</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>520.00</tamanho>
+            <numQuartos>6</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 870.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Studio mobiliado no centro</descricao>
+        <proprietario>
+            <nome>Thiago Mendes</nome>
+            <telefone>(84) 95432-1010</telefone>
+            <email>thiago.mendes@example.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua Princesa Isabel</rua>
+            <bairro>Centro</bairro>
+            <cidade>Natal</cidade>
+            <numero>350</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>68.00</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 330.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa ampla com quintal</descricao>
+        <proprietario>
+            <nome>Sandra Ribeiro</nome>
+            <email>sandra.ribeiro@example.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Acácias</rua>
+            <bairro>Parque das Palmeiras</bairro>
+            <cidade>Mossoró</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>210.00</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 615.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Kitnet reformada</descricao>
+        <proprietario>
+            <nome>Marcos Tavares</nome>
+            <telefone>(84) 97654-3333</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Farol</rua>
+            <bairro>Praia dos Artistas</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>37.50</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 155.000,00</valor>
+    </imovel>
+</imobiliaria>
