@@ -1,3 +1,12 @@
+# Tarefas POS - IFRN/SPP - 2025
+
+Sigam o descrito no enunciado desse arquivo e no link do slide.
+
+Atividades entregues após o prazo valem 50% da nota até a data final de cada unidade, quando não serão mais aceitas.
+
+## Unidade 01 (07/04/2025 a 11/06/2025)
+- Sem tarefas práticas
+
 ## Unidade 02 (12/06/2025 a 15/08/2025)
 
 ### Tarefa 01 - XML Básico
@@ -50,3 +59,24 @@
 - **Entrega: 19/06/2025**
 - Criei uma pasta `parsers` com os dois arquivos da tarefa: `cardapio.xml` e `cardapio.py`.
 - [Slide de referência](https://dvcirilo-ifrn.github.io/pos/slides/aula10.html#8)
+
+### Tarefa 10 - Conversão XML - JSON
+- **Entrega: 26/06/2025**
+- Adicionei os arquivos `imobiliaria.xml`, `imobiliaria.py` e `imobiliaria.json` na pasta `parsers`, realizando a conversão de XML para JSON.
+- [Slide de referência](https://dvcirilo-ifrn.github.io/pos/slides/aula10.html#13)
+
+### Tarefa 11 - Parser Imobiliária JSON
+- **Entrega: 26/06/2025**
+- Criei o arquivo `parser_imobiliaria.py` dentro da pasta `parsers`, responsável por ler e processar os dados do arquivo `imobiliaria.json`.
+- [Slide de referência](https://dvcirilo-ifrn.github.io/pos/slides/aula10.html#14)
+
+### Tarefa 12 - Cliente JSONPlaceholder (users)
+- **Entrega: 03/07/2025**
+- Criei uma pasta `rest` com os arquivos `users.py` e `cliente.py`, que consomem a API JSONPlaceholder.
+- [Slide de referência](https://dvcirilo-ifrn.github.io/pos/slides/aula11.html#24)
+
+## Unidade 03 (09/09/2025 a 12/11/2025)
+- Em breve
+
+## Unidade 04 (13/11/2025 a 10/02/2026)
+- Em breve
