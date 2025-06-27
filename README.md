@@ -72,7 +72,7 @@ Atividades entregues após o prazo valem 50% da nota até a data final de cada u
 
 ### Tarefa 12 - Cliente JSONPlaceholder (users)
 - **Entrega: 03/07/2025**
-- Criei uma pasta `rest` com os arquivos `users.py` e `cliente.py`, que consomem a API JSONPlaceholder.
+- Criarei uma pasta `rest` com os arquivos `users.py` e `cliente.py`, que consomem a API JSONPlaceholder.
 - [Slide de referência](https://dvcirilo-ifrn.github.io/pos/slides/aula11.html#24)
 
 ## Unidade 03 (09/09/2025 a 12/11/2025)
